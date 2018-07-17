@@ -3,7 +3,8 @@ var router = express.Router();
 var mongoose = require('mongoose');
 // mongoose.connect('mongodb://localhost:27017/tourist');
 // mongodb://<dbuser>:<dbpassword>@ds219098.mlab.com:19098/tourist
-mongoose.connect('mongodb://wasinpich:wasin123@ds219098.mlab.com:19098/tourist');
+// mongoose.connect('mongodb://wasinpich:wasin123@ds219098.mlab.com:19098/tourist');
+mongoose.connect('mongodb://<wasinpich>:<wasin123>@ds219098.mlab.com:19098/tourist');
 var Schema = mongoose.Schema;
 
 var touristDataSchema = new Schema({
